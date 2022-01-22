@@ -1,0 +1,27 @@
+h1 {
+    font-family: 'Bree Serif', serif;
+}
+
+p {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.container-fluid {
+    padding: 1rem;
+}
+
+.navbar {
+    margin: 0 0 2rem 0;
+}
+
+.footer {
+    background-color: purple;
+    text-align: center;
+    color: white;
+    position: sticky;
+    bottom: 0;
+}
+
+.blogbody {
+    margin: 0 10% 2rem 10%;
+}

@@ -1,0 +1,16 @@
+<%-include("header.ejs")%>
+    <form action="/compose" method="post">
+        <div class="form-group">
+            <label>Title</label>
+            <input type="text" name="post_title" placeholder="Post Title" class="form-control" required>
+            <label>Post Body</label>
+            <textarea name="post_body" cols="30" rows="7" name="post-body" class="form-control" placeholder="Post body here.." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Create Post</button>
+
+    </form>
+
+
+
+
+    <%-include("footer.ejs")%>
