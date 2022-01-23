@@ -15,13 +15,12 @@ p {
 }
 
 .footer {
-    background-color: purple;
-    text-align: center;
+    background-color: #556271;
     color: white;
-    position: sticky;
-    bottom: 0;
+    text-align: center;
 }
 
 .blogbody {
-    margin: 0 10% 2rem 10%;
+    margin: 0 10% 100px 10%;
+    min-height: 100%;
 }
