@@ -43,10 +43,17 @@
         <p style="margin: 0 10% 2rem 10%;">
             <%=req_body%>
         </p>
+        <form action="/delete" method="post">
+
+            <button type="submit" class="btn btn-danger" name="deleteid" value=<%=reqid%>>Delete Post</button>
+
+        </form>
     </div>
+
     <div class="container-fluid footer p-5 text-center" style="background-color: #556271;color: white;">
         <p>Copyright Ⓒ 2022 Baba Shankar</p>
     </div>
+
 
 </body>
 
